@@ -1,0 +1,19 @@
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+    
+  }
+  td {
+text-align: center;
+}
+h2{
+  font-size: 25px;
+}
+
+.price{
+  margin-left: 400px;
+}
+.clear-cart{
+  margin-left: 500px;
+}
+  

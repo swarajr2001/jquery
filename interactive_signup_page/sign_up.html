@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Sign up
+
+    </title>
+   
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="validate.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+
+<body>
+   
+    
+    
+        
+        
+
+        
+    <div class="div1">
+
+    <form class="form" id="form">
+       
+
+        <p class="form-title">Sign in to your account</p>
+
+            <div class="input-container">
+                <label for="fname">
+                    Name</label><br>
+
+                <input type="text" id="name" name="fname">
+                <span class="err" id="name-err"></span>
+
+
+            </div>
+            <div class="input-container">
+                <label for="email">
+                    Email</label><br>
+                <input type="email" id="email" name="email" >
+                <span class="err" id="email-err"></span>
+            </div>
+            
+            <div class="input-container">
+                <label for="dob">
+                    Date of Birth</label><br>
+                <input type="date" id="dob" name="dob" min="2000-01-02" >
+            </div>
+            <div class="input-container">
+                <label for="age">
+                    Age</label><br>
+                <input type="text" id="age" readonly><br>
+                <span class="err" id="age-err"></span>
+            </div>
+            <div class="text">
+                <label for="gender" >
+                    Select Gender</label> <br>
+                <div class="text">
+                    <input type="radio" id="gender" name="Gender" value="male" >male
+                    <input type="radio" id="gender" name="Gender" value="female">Female
+                    <input type="radio" id="gender" name="Gender" value="others">Others
+                </div>
+            </div>
+            
+            
+            <div class="input-container">
+                <label for="address">
+                    Address</label><br>
+                <input type="text" id="address" name="address"></textarea>
+                <span class="err" id="address-err"></span>
+
+            </div>
+            <div class="input-container">
+                <label for="password">
+                    password
+                </label><br>
+                <input type="password" id="password" name="password" >
+                <i class="far fa-eye" id="togglePassword"></i><br>
+                <span class="err" id="pass-err"></span>
+
+
+            </div>
+            <div class="input-container">
+                <label for="Confirm">
+                    Confirm password
+                </label><br>
+                <input type="password" id="Confirm" name="Confirm"  maxlength="12">
+                <i class="far fa-eye" id="toggleconPassword" ></i><br>
+                <span class="err" id="conpass-err"></span>
+
+
+            </div>
+            <input type="submit" class="btn btn-primary close" id="btn" value="sign up">
+            
+        
+        
+        <div id="modalDialog" class="modal">
+            <div class="modal-content animate-top">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close">
+                        <span aria-hidden="true">x</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Woohoo,you have to follow this while entering data!</p>
+                    <p>1.Name should only contain alphabets</p>
+                    <p>2.email should be valid</p>
+                    <p>3.age should be 10 to 18</p>
+                    <p>4.password should contain 1 uppercase,1 lower case,1 special character and min 8 in length</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content animate-top">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close">
+                        <span aria-hidden="true">x</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Woohoo,you have to follow this while entering data!</p>
+                    <p>you shoud not copy paste password</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+
+       
+
+    </form>
+</div>
+
+
+</body>
+
+</html>

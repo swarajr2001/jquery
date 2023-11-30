@@ -1,0 +1,63 @@
+form{
+    margin: 20px;
+}
+form input, button{
+    padding: 5px;
+}
+table{
+    font-weight: 800;
+    width: 60%;
+    margin: 20px;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid #0c0b0b;
+}
+table th, td{
+    padding: 10px;
+    border:5px solid black    	
+}
+  .delete-row, h2{
+  margin:20px;
+  }
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif ;
+  
+}
+body{
+    background-color: rgb(243, 228, 243);
+}
+input[type=text] {
+    border: 3px solid rgb(2, 2, 2);
+    border-radius: 4px;
+  }
+
+  .add-row {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .delete-row{
+    background-color: #f10303;
+    border: none;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
